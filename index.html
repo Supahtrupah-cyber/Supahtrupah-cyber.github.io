@@ -1,11 +1,16 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-<title>BRICKS</title>
-<body>
+<body style="background-color: rgba(11,39,62,255);">
 
-<h1 style="color:rgb(255, 162, 0);">This is remake of the BRICKS website</h1>
+<embed id="embeded" type="text/html" src="https://lebum.3vm.cl/"  width="500" height="200">
 
-<p>You can find the youtube video <a href="https://youtu.be/cx6Xs3F_1Uc">here</a></p>
+<script>
+    var w = window.innerWidth;
+    var h = window.innerHeight;
+    
+    document.getElementById("embeded").width = w - 10;
+    document.getElementById("embeded").height = h - 20;
+</script>
 
 </body>
-</html> 
+</html>
